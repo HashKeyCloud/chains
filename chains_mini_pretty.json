@@ -2066,16 +2066,16 @@
   "faucets": [],
   "infoURL": "https://explorer.lightstreams.io"
 }, {
-  "name": "Omni Testnet",
+  "name": "Omni Omega",
   "chainId": 164,
-  "shortName": "omni_testnet",
+  "shortName": "omni_omega",
   "networkId": 164,
   "nativeCurrency": {
     "name": "Omni",
     "symbol": "OMNI",
     "decimals": 18
   },
-  "rpc": ["https://testnet.omni.network"],
+  "rpc": ["https://omega.omni.network"],
   "faucets": [],
   "infoURL": "https://docs.omni.network"
 }, {
@@ -4236,6 +4236,32 @@
   "rpc": ["https://glq-dataseed.graphlinq.io"],
   "faucets": [],
   "infoURL": "https://graphlinq.io"
+}, {
+  "name": "Binary Mainnet",
+  "chainId": 624,
+  "shortName": "thebinaryholdings-mainnet",
+  "networkId": 624,
+  "nativeCurrency": {
+    "name": "Binary Token",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zero.thebinaryholdings.com"],
+  "faucets": [],
+  "infoURL": ""
+}, {
+  "name": "Binary Sepolia",
+  "chainId": 625,
+  "shortName": "thebinaryholdings-sepolia",
+  "networkId": 625,
+  "nativeCurrency": {
+    "name": "Test BNRY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.thebinaryholdings.com"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "Avocado",
   "chainId": 634,
@@ -9268,6 +9294,19 @@
   "faucets": [],
   "infoURL": "https://movementlabs.xyz"
 }, {
+  "name": "XL Network Testnet",
+  "chainId": 3084,
+  "shortName": "nysl",
+  "networkId": 3084,
+  "nativeCurrency": {
+    "name": "XLNetwork",
+    "symbol": "XLN",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/xlnetworkt/testnet/rpc", "wss://subnets.avax.network/xlnetworkt/testnet/ws"],
+  "faucets": [],
+  "infoURL": "https://www.nysl.io/"
+}, {
   "name": "Immu3 EVM",
   "chainId": 3100,
   "shortName": "Immu3",
@@ -10112,6 +10151,19 @@
   "rpc": ["https://rpc.testnet.ms"],
   "faucets": [],
   "infoURL": "https://crossfi.org"
+}, {
+  "name": "SX Rollup",
+  "chainId": 4162,
+  "shortName": "SXR",
+  "networkId": 4162,
+  "nativeCurrency": {
+    "name": "SX Network",
+    "symbol": "SX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sx-rollup.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://www.sx.technology"
 }, {
   "name": "PHI Network V1",
   "chainId": 4181,
@@ -13492,6 +13544,19 @@
   "rpc": ["https://mainnet-rpc.hashbit.org", "https://rpc.hashbit.org"],
   "faucets": [],
   "infoURL": "https://hashbit.org"
+}, {
+  "name": "Abstract Testnet",
+  "chainId": 11124,
+  "shortName": "Abstract",
+  "networkId": 11124,
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://api.testnet.abs.xyz"],
+  "faucets": ["https://faucet.triangleplatform.com/abstract/testnet"],
+  "infoURL": "https://abs.xyz/"
 }, {
   "name": "Shine Chain",
   "chainId": 11221,
@@ -17600,6 +17665,19 @@
   "rpc": ["https://inoai-network.com"],
   "faucets": [],
   "infoURL": "https://inoai.info"
+}, {
+  "name": "ZKasino Mainnet",
+  "chainId": 88800,
+  "shortName": "ZKasino",
+  "networkId": 88800,
+  "nativeCurrency": {
+    "name": "ZKAS",
+    "symbol": "ZKAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zkas.zeeve.net"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "Unit Zero Testnet",
   "chainId": 88817,
@@ -21786,6 +21864,19 @@
   "rpc": ["https://rpc-test.0xhash.io"],
   "faucets": [],
   "infoURL": "https://0xhash.io"
+}, {
+  "name": "SX Toronto Rollup",
+  "chainId": 79479957,
+  "shortName": "SXR-Testnet",
+  "networkId": 79479957,
+  "nativeCurrency": {
+    "name": "SX Network",
+    "symbol": "SX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sx-rollup-testnet.t.raas.gelato.cloud"],
+  "faucets": ["https://faucet.toronto.sx.technology"],
+  "infoURL": "https://www.sx.technology"
 }, {
   "name": "Backstop Testnet",
   "chainId": 88558801,
