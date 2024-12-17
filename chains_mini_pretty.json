@@ -25388,6 +25388,19 @@
   "faucets": [],
   "infoURL": "https://pego.network"
 }, {
+  "name": "SoonChain Sepolia Devnet",
+  "chainId": 20221001,
+  "shortName": "Soon-Devnet",
+  "networkId": 20221001,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.rpc.soonchain.ai"],
+  "faucets": ["https://console.optimism.io/faucet"],
+  "infoURL": "https://soonchain.ai"
+}, {
   "name": "Vcity Testnet",
   "chainId": 20230825,
   "shortName": "Vcity",
@@ -25618,8 +25631,8 @@
     "symbol": "XOC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-testnet.xone.plus"],
-  "faucets": [],
+  "rpc": ["https://rpc-testnet.xone.plus", "https://rpc-testnet.xone.org", "https://rpc-testnet.knight.center"],
+  "faucets": ["https://faucet.xone.plus/"],
   "infoURL": "https://xone.plus"
 }, {
   "name": "citronus-citro",
